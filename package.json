@@ -1,0 +1,29 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "A environment to...",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx parcel src/views/home/home.html",
+    "build":"npx parcel build src/views/home/home.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costafsk/environment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costafsk/environment/issues"
+  },
+  "homepage": "https://github.com/costafsk/environment#readme",
+  "dependencies": {
+    "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "parcel-bundler": "^1.12.3"
+  }
+}
