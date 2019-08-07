@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => init());
 
 const init = () => {
+    const nav = document.querySelectorAll('.sidenav');
+    const instances = M.Sidenav.init(elems);
+
     const carousel = document.querySelector('.carousel');
     
     const instance = M.Carousel.init(carousel, {

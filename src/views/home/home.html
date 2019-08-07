@@ -4,20 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="./../../../node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="./../../../node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="./master.css">
     <title>Working</title>
 </head>
 <body>
+    <nav class="cyan lighten-1">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+            <li><a href="#!">Sass</a></li>
+            <li><a href="#!">Components</a></li>
+            <li><a href="#!">Javascript</a></li>
+            <li><a href="#!">Mobile</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#!">Sass</a></li>
+        <li><a href="#!">Components</a></li>
+        <li><a href="#!">Javascript</a></li>
+        <li><a href="#!">Mobile</a></li>
+    </ul>
     <main class="carousel carousel-slider center">
         <section class="carousel-fixed-item p-carousel-fixed-item-title">
             <div class="p-carousel-title">
                 <h3>Working</h3>
             </div>
         </section>
-        <section class="carousel-fixed-item p-carousel-fixed-item">
-            <button class="p-button p-button-register">Não é usuário? Crie já sua conta</button>
+        <section class="carousel-fixed-item p-carousel-fixed-item-register">
+                <button class="p-button p-button-register">Não é usuário? Crie já sua conta</button>
         </section>
         <section class="carousel-item white-text p-carousel-page" href="#one!">
             <article class="page-one">

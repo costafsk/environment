@@ -11,7 +11,10 @@
     color: rgb(236, 236, 236);
     text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
 }
-
+.p-carousel-fixed-item-register {
+    position: absolute;
+    z-index: 0;
+}
 .p-button-register {
     border: none;
     padding: 15px 30px 15px 30px;
