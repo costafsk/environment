@@ -1,3 +1,58 @@
-body {
-    background-color: rgb(174, 197, 199);
+/* Page Fixed */
+
+.p-carousel-fixed-item-title {
+    display: flex;
+    top: -15px;
+    margin-left: 2%;
+}
+
+.p-carousel-fixed-item-title >.p-carousel-title>h3 {
+    font-weight: bold;
+    color: rgb(236, 236, 236);
+    text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.p-button-register {
+    border: none;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+    color: rgb(32, 32, 32);
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+.p-button-register:hover {
+    cursor: pointer;
+}
+
+/* Set Color */
+
+.p-carousel-page {
+    background-color: rgb(113, 89, 193);
+}
+
+/* Page One */
+
+.page-one > .p-carousel-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.page-one > .p-carousel-description > .p-description {
+    font-size: 3.4em;
+    width: 10em;
+    font-weight: bold;
+}
+
+.page-one > .p-carousel-explorer {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.page-one > .p-carousel-explorer > button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
 }

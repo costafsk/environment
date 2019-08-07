@@ -4,8 +4,8 @@
   "description": "A environment to...",
   "main": "index.js",
   "scripts": {
-    "dev":"npx parcel src/views/home/home.html",
-    "build":"npx parcel build src/views/home/home.html",
+    "dev": "npx parcel src/views/home/home.html",
+    "build": "npx parcel build src/views/home/home.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/costafsk/environment#readme",
   "dependencies": {
+    "jquery": "^3.4.1",
     "materialize-css": "^1.0.0"
   },
   "devDependencies": {

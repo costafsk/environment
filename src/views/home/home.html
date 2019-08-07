@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./../../../node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="./../../../node_modules/materialize-css/dist/css/materialize.min.css">
     <link rel="stylesheet" href="./master.css">
-    <title>Document</title>
+    <title>Working</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Main!</h1>
-    </div>
+    <main class="carousel carousel-slider center">
+        <section class="carousel-fixed-item p-carousel-fixed-item-title">
+            <div class="p-carousel-title">
+                <h3>Working</h3>
+            </div>
+        </section>
+        <section class="carousel-fixed-item p-carousel-fixed-item">
+            <button class="p-button p-button-register">Não é usuário? Crie já sua conta</button>
+        </section>
+        <section class="carousel-item white-text p-carousel-page" href="#one!">
+            <article class="page-one">
+                <div class="p-carousel-description">
+                    <h1 class="p-description">Milhares de freelancers prontos para começar a trabalhar no seu projeto</h1>
+                </div>
+                <div class="p-carousel-explorer">
+                    <button>Explorar</button>
+                </div>
+                <div class="p-carousel-span">
+                    <span>Deslize para navegar</span>
+                </div>
+            </article>
+        </section>
+        <section class="carousel-item deep-purple accent-1 white-text p-carousel-page" href="#two!">
+            <h2>Second Panel</h2>
+            <p class="white-text">This is your second panel</p>
+        </section>
+        <section class="carousel-item white-text p-carousel-page" href="#three!">
+            <h2>Third Panel</h2>
+            <p class="white-text">This is your third panel</p>
+        </section>
+        <section class="carousel-item deep-purple accent-1 white-text p-carousel-page" href="#four!">
+            <h2>Fourth Panel</h2>
+            <p class="white-text">This is your fourth panel</p>
+        </section>
+    </main>
     <script src="./../../../node_modules/materialize-css/dist/js/materialize.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="./main.js" type="module"></script>
 </body>
 </html>
