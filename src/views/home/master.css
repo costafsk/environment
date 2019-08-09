@@ -1,20 +1,59 @@
-/* Page Fixed */
+/* Body Features */
 
-.p-carousel-fixed-item-title {
-    display: flex;
-    top: -15px;
-    margin-left: 2%;
+body {
+    overflow-y: hidden;
 }
 
-.p-carousel-fixed-item-title >.p-carousel-title>h3 {
+/* Header  */
+.p-header > .p-nav {
+    background-color: #4FC484;
+}
+
+.p-header > .p-nav > .p-left > a {
     font-weight: bold;
     color: rgb(236, 236, 236);
-    text-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+    font-size: 2.8em;
+    color: #F7EED2;
+    margin-left: 1.5%;
 }
+/* Container */
+.p-container {
+    background-color:rgb(240, 234, 214);
+}
+
+.p-container > aside > .p-title {
+    font-weight: bold;
+    width: 15em;
+    color: rgb(82, 82, 82);
+}
+
+/* Aside */
+
+.p-form-register-initialize > button {
+    border: 1px solid #4FC484;
+    color: #4FC484;
+    text-shadow: 2px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: rgba(79, 196, 132, 0.089);
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.p-form-register-initialize > button:hover {
+    background-color: rgba(79, 196, 132, 0.521);
+    color: rgba(255, 255, 255, 0.788);
+    cursor: pointer;
+}
+
+/* Page Fixed */
 .p-carousel-fixed-item-register {
     position: absolute;
     z-index: 0;
 }
+
 .p-button-register {
     border: none;
     padding: 15px 30px 15px 30px;
@@ -30,26 +69,44 @@
 /* Set Color */
 
 .p-carousel-page {
-    background-color: rgb(113, 89, 193);
+    background-color: #4FC484;
 }
 
+.p-alternative-color {
+    background-color: rgb(137, 250, 188);
+}
+.p-sidebar-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: 1%;
+    top: 35%;
+}
+.p-social {
+    font-size: 2em;
+    margin: 30% 0%;
+    color: rgb(75, 75, 75);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
 /* Page One */
 
 .page-one > .p-carousel-description {
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .page-one > .p-carousel-description > .p-description {
     font-size: 3.4em;
     width: 10em;
     font-weight: bold;
+    color: #F7EED2;
 }
 
 .page-one > .p-carousel-explorer {
     margin-top: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 .page-one > .p-carousel-explorer > button {

@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => init());
 
 const init = () => {
-    const nav = document.querySelectorAll('.sidenav');
-    const instances = M.Sidenav.init(elems);
+    const navbar = document.querySelector('.sidenav');
+    const instances = M.Sidenav.init(navbar);
 
     const carousel = document.querySelector('.carousel');
     
@@ -10,8 +10,8 @@ const init = () => {
         fullWidth: true,
         indicators: true
     });
-
-    const setHeight = () => carousel.style.height = `${window.innerHeight}px`;
+    
+    const setHeight = () => carousel.style.height = `${window.innerHeight - 56}px`;
 
     // Setting height (init);
     setHeight();

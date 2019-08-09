@@ -7,63 +7,80 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="./../../../node_modules/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="./../../../node_modules/materialize-css/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="./../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="./master.css">
     <title>Working</title>
 </head>
 <body>
-    <nav class="cyan lighten-1">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo center">Logo</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-            <li><a href="#!">Sass</a></li>
-            <li><a href="#!">Components</a></li>
-            <li><a href="#!">Javascript</a></li>
-            <li><a href="#!">Mobile</a></li>
-            </ul>
-        </div>
-    </nav>
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#!">Sass</a></li>
-        <li><a href="#!">Components</a></li>
-        <li><a href="#!">Javascript</a></li>
-        <li><a href="#!">Mobile</a></li>
-    </ul>
-    <main class="carousel carousel-slider center">
-        <section class="carousel-fixed-item p-carousel-fixed-item-title">
-            <div class="p-carousel-title">
-                <h3>Working</h3>
+    <header class="p-header">
+        <nav class="p-nav">
+            <div class="p-left">
+                <a href="#">Working</a>
             </div>
-        </section>
-        <section class="carousel-fixed-item p-carousel-fixed-item-register">
-                <button class="p-button p-button-register">Não é usuário? Crie já sua conta</button>
-        </section>
-        <section class="carousel-item white-text p-carousel-page" href="#one!">
-            <article class="page-one">
-                <div class="p-carousel-description">
-                    <h1 class="p-description">Milhares de freelancers prontos para começar a trabalhar no seu projeto</h1>
+            <div class="p-right">
+
+            </div>
+        </nav>
+    </header>
+    <div class="p-container row">
+        <main class="carousel carousel-slider center col s7">
+            <section class="carousel-item white-text p-carousel-page" href="#one!">
+                <article class="page-one">
+                    <div class="p-carousel-description">
+                        <h1 class="p-description">Milhares de freelancers prontos para começar a trabalhar no seu projeto</h1>
+                    </div>
+                    <div class="p-carousel-explorer">
+                        <button>Explorar</button>
+                    </div>
+                    <div class="p-carousel-span">
+                        <span>Deslize para navegar</span>
+                    </div>
+                </article>
+            </section>
+            <section class="carousel-item p-alternative-color white-text p-carousel-page" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </section>
+            <section class="carousel-item white-text p-carousel-page" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </section>
+            <section class="carousel-item p-alternative-color white-text p-carousel-page" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </section>
+        </main>
+        <aside class="col s4 row">
+            <div class="col s11">
+                <h4 class="p-title">Venha ser um dos nossos frelancers</h4>
+                <form action="" class="p-form-register">
+                    <div class="input-field col s12">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Nome</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">E-mail</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Password</label>
+                    </div>
+                    <div class="input-field col s12 p-form-register-initialize">
+                        <button>Iniciar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col s1">
+                <div class="p-sidebar-social">
+                    <i class="fab fa-github p-social"></i>
+                    <i class="fab fa-facebook p-social"></i>
+                    <i class="fab fa-twitter-square p-social"></i>
+                    <i class="fab fa-youtube p-social"></i>
                 </div>
-                <div class="p-carousel-explorer">
-                    <button>Explorar</button>
-                </div>
-                <div class="p-carousel-span">
-                    <span>Deslize para navegar</span>
-                </div>
-            </article>
-        </section>
-        <section class="carousel-item deep-purple accent-1 white-text p-carousel-page" href="#two!">
-            <h2>Second Panel</h2>
-            <p class="white-text">This is your second panel</p>
-        </section>
-        <section class="carousel-item white-text p-carousel-page" href="#three!">
-            <h2>Third Panel</h2>
-            <p class="white-text">This is your third panel</p>
-        </section>
-        <section class="carousel-item deep-purple accent-1 white-text p-carousel-page" href="#four!">
-            <h2>Fourth Panel</h2>
-            <p class="white-text">This is your fourth panel</p>
-        </section>
-    </main>
+            </div>
+        </aside>
+    </div>
     <script src="./../../../node_modules/materialize-css/dist/js/materialize.min.js"></script>
     <script src="./main.js" type="module"></script>
 </body>
